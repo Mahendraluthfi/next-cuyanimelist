@@ -1,3 +1,4 @@
+import InputSearch from "./InputSearch";
 const { default: Link } = require("next/link");
 
 const Navbar = () => {
@@ -7,7 +8,7 @@ const Navbar = () => {
         <Link href="/" className="md:text-2xl text-xl text-white">
           CUYANIMELIST
         </Link>
-        <input placeholder="Cari Anime ..." />
+        <InputSearch></InputSearch>
       </div>
     </header>
   );
